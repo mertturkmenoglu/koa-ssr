@@ -1,0 +1,15 @@
+<div class="display-5 text-center">
+	Add Post
+</div>
+<form action="/add-post" method="POST">
+	<div class="mb-3">
+		<label for="postTitle" class="form-label">Post Title</label>
+		<input type="text" name="postTitle" class="form-control" id="postTitle" aria-describedby="postTitleHelp">
+		<div id="postTitleHelp" class="form-text">Your post title</div>
+
+		<label for="postAuthor" class="form-label">Post Author</label>
+		<input type="text" name="postAuthor" class="form-control" id="postAuthor" aria-describedby="postAuthorHelp">
+		<div id="postAuthorHelp" class="form-text">Your post author</div>
+	</div>
+	<button type="submit" class="btn btn-primary">Create Post</button>
+</form>
